@@ -39,3 +39,4 @@ class Double:
     return f"Double({self.value})"
 
   print(Double(1) / Double(7))
+  # 0.14285714285714285
