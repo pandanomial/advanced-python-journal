@@ -1,5 +1,13 @@
-##### pythonexercises
-##### I’m into math and sciences. 
-##### I am a tinkerbell: I tinker with code and ideas.
-##### My goal is to finish up my projects.
+# Python Journal
+
+## About Me
+I'm into Math and Sciences.
+
+## Goals for This Course
+- TBA
+
+
+## My First Python Program
+```
 print('Hello, World!')
+```
