@@ -1,4 +1,4 @@
-# Python Journal
+# Advanced Python 005B Journal
 
 ## About Me
 I'm into Math and Sciences.
