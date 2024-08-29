@@ -1,4 +1,4 @@
-# Python script can be executed in Terminal from the command line.
+## Python script can be executed in Terminal from the command line.
 ### Navigate to the Script’s Directory: eg
 
 ```
@@ -23,7 +23,7 @@ python my_script.py function_one
 
 
 
-# Python NumPy is a great package for scientific computing.
+## Python NumPy is a great package for scientific computing.
 
 ### eg Create a NumPy array:
 ```
@@ -37,7 +37,7 @@ print(type(arr))
 ```
 
 
-# Python uses easy and simple syntax 
+## Python uses easy and simple syntax 
 
 ### eg  C++ code 
 ```
