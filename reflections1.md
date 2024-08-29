@@ -1,42 +1,62 @@
-### I want to use double rather than float
+# Python script can be executed in Terminal from the command line.
+### Navigate to the Script’s Directory: eg
 
-### prompt: create decimal class equivalent to c++ double 
+```
+cd my_file_path/my_python_scripts
+```
+### To run a Python script, followed by the name of the script. eg
 
-from decimal import Decimal, Context
+```
+python my_script.py
+```
+### or
 
-class Double:
-  def __init__(self, value):
-    self.value = Decimal(str(value), Context(prec=15))
+```
+./my_script.py
+```
 
-  def __add__(self, other):
-    if isinstance(other, Double):
-      return Double(self.value + other.value)
-    else:
-      return Double(self.value + Decimal(str(other)))
+### or
 
-  def __sub__(self, other):
-    if isinstance(other, Double):
-      return Double(self.value - other.value)
-    else:
-      return Double(self.value - Decimal(str(other)))
+```
+python my_script.py function_one
+```
 
-  def __mul__(self, other):
-    if isinstance(other, Double):
-      return Double(self.value * other.value)
-    else:
-      return Double(self.value * Decimal(str(other)))
 
-  def __truediv__(self, other):
-    if isinstance(other, Double):
-      return Double(self.value / other.value)
-    else:
-      return Double(self.value / Decimal(str(other)))
 
-  def __str__(self):
-    return str(self.value)
+# Python NumPy is a great package for scientific computing.
 
-  def __repr__(self):
-    return f"Double({self.value})"
+### eg Create a NumPy array:
+```
+import numpy as np
 
-  print(Double(1) / Double(7))
-  # 0.14285714285714285
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr)
+
+print(type(arr))
+```
+
+
+# Python uses easy and simple syntax 
+
+### eg  C++ code 
+```
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+      string name;
+      cin >> name;
+      cout << "Good evening, " << name << endl;
+      return 0;
+}
+```
+### eg Python code:
+```
+name = input()
+print("Good evening, " + name)
+```
+
+
+
