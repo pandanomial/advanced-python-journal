@@ -1,34 +1,29 @@
-## 1. Python script can be executed in Terminal from the command line. And I observed in REP, I can type commands and instantly see the output printed out. 
-### For example, I can see the value of any variable just by entering it into the prompt.
+I've taken one Python course before. Here are three things I learned about Python that I think are interesting:
+
+### 1. Python is a dynamic language and scripts can easily be executed from the command line. 
+
+I also like that you can easily run the interpreter from the command line to test things. For example:
+
 ```
+$ python
+
 >>> name = "Steph"
 >>> name
 'Steph'
 ```
-### Also, I can use type(), dir(), and help(), for example:
+
+Also, I can use type(), dir(), and help(), for example:
+
 ```
 >>> name = "Steph"
 >>> type(name)
 <class 'str'>
 ```
-## 2. Python NumPy is a great package for scientific computing.
 
+###  2. Python uses easy and simple syntax 
+A comparison of Python with C++:
 
-### eg Create a NumPy array:
-```
-import numpy as np
-
-arr = np.array([1, 2, 3, 4, 5])
-
-print(arr)
-
-print(type(arr))
-```
-
-
-##  3. Python uses easy and simple syntax 
-
-### For example:  C++ code 
+#### C++ code 
 ```
 #include <iostream>
 #include <string>
@@ -41,11 +36,22 @@ int main() {
       return 0;
 }
 ```
-### and Python code:
+#### Python code:
 ```
 name = input()
 print("Good evening, " + name)
 ```
 
+### 3. Python NumPy is a great package for scientific computing.
 
+Simple example showing Numpy array:
 
+```
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr)
+
+print(type(arr))
+```
