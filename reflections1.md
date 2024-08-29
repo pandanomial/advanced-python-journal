@@ -1,29 +1,18 @@
-## Python script can be executed in Terminal from the command line.
-### Navigate to the Script’s Directory: eg
-
+## 1. Python script can be executed in Terminal from the command line. And I observed in REP, I can type commands and instantly see the output printed out. 
+### For example, I can see the value of any variable just by entering it into the prompt.
 ```
-cd my_file_path/my_python_scripts
+>>> name = "Steph"
+>>> name
+'Steph'
 ```
-### To run a Python script, followed by the name of the script. eg
-
+### Also, I can use type(), dir(), and help(), for example:
 ```
-python my_script.py
+>>> name = "Steph"
+>>> type(name)
+<class 'str'>
 ```
-### or
+## 2. Python NumPy is a great package for scientific computing.
 
-```
-./my_script.py
-```
-
-### or
-
-```
-python my_script.py function_one
-```
-
-
-
-## Python NumPy is a great package for scientific computing.
 
 ### eg Create a NumPy array:
 ```
@@ -37,9 +26,9 @@ print(type(arr))
 ```
 
 
-## Python uses easy and simple syntax 
+##  3. Python uses easy and simple syntax 
 
-### eg  C++ code 
+### For example:  C++ code 
 ```
 #include <iostream>
 #include <string>
@@ -52,7 +41,7 @@ int main() {
       return 0;
 }
 ```
-### eg Python code:
+### and Python code:
 ```
 name = input()
 print("Good evening, " + name)
