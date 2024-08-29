@@ -1,14 +1,13 @@
 # Advanced Python 005B Journal
 
 ## About Me
-I'm into Math and Sciences.
+Hi, I'm Stephanie. I'm into Math and Science.
 
 ## Goals for This Course: 005B Avanced Python
-Analyze, design and implement Python programs.
+Analyze, design, and implement Python programs.
 
 
-## Creating and highlighting code blocks
+## Sample Code Block
 ```
 print('Hello, World!')
-
 ```
