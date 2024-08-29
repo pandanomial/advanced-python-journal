@@ -3,11 +3,11 @@
 ## About Me
 I'm into Math and Sciences.
 
-## Goals for This Course
-- TBA
+## Goals for This Course: 005B Avanced Python
+Analyze, design and implement Python programs.
 
 
-## My First Python Program
+## Creating and highlighting code blocks
 ```
 print('Hello, World!')
 ```
