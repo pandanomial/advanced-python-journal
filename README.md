@@ -1,4 +1,4 @@
-# Advanced Python 005B Journal
+# Advanced Python Journal
 
 ## About Me
 Hi, I'm Stephanie. I'm into Math and Science.
