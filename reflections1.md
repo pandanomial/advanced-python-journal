@@ -1,4 +1,4 @@
-Here are three things that I think are interesting:
+Three things are interesting:
 
 ### 1. Python is a dynamic language and scripts can easily be executed from the command line. 
 
