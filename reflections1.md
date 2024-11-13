@@ -1,4 +1,4 @@
-I've taken one Python course before. Here are three things I learned about Python that I think are interesting:
+Here are three things that I think are interesting:
 
 ### 1. Python is a dynamic language and scripts can easily be executed from the command line. 
 
